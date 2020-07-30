@@ -1,0 +1,36 @@
+.dish{
+  height: 110px;
+  background-color:#D1B6E1;
+  border-bottom:#D1B6E1;
+  border-radius: 1px;
+  border-bottom: 5px solid orchid;
+  display: flex;
+}
+.image{
+  height: 90px;
+  width: 120px;
+  background-color: #58C9B9;
+  margin: 10px;
+}
+.descr{
+  height: 90px;
+  width: 200px;
+  background-color:#D1B6E1;
+  flex: 1;
+}
+
+.dishname{
+  font-size: 24px;
+  font-weight: bold;
+  display: block;
+}
+.dishprice{
+  font-size: 20px;
+  color: cornflowerblue;
+  display: block;
+}
+.dishleft{
+  font-size: 20px;
+  color: bisque;
+  display: block;
+}

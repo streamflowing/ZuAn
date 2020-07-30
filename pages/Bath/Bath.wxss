@@ -1,0 +1,14 @@
+/* pages/Bath/Bath.wxss */
+.bath{
+  height: 140px;
+
+  background-color: green;
+  border: 105px hotpink;  
+  flex-direction: column;
+}
+.fuck{
+  flex-direction: column;
+}
+.image{
+  flex-direction: column;
+}

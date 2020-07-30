@@ -1,0 +1,24 @@
+<!--pages/Dinning/Dinning.wxml-->
+<block wx:for="{{DishInfo}}" key="key">
+  <view class="dish">
+    <view class="image">
+      <van-image
+        width="120"
+        height="90"
+        lazy-load
+        fit="cover"
+        src= "{{item.dishimage}}"
+      />
+    </view>
+
+    <view class="descr">
+      <text class="dishname">{{item.dishname}}</text>
+      <text class="dishprice">{{item.dishprice}}￥</text>
+      <text class="dishleft">菜品余量：{{item.dishleft}}</text>
+      <view slot="footer">
+        <van-button round size="mini">+</van-button>
+        <van-button round size="mini">-</van-button>
+    </view>
+    </view>
+  </view>
+</block>

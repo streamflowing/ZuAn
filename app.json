@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/Bath/Bath",
+    "pages/Group/Group",
+    "pages/Dinning/Dinning"
+  ],
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/Dinning/Dinning",
+      "text": "智慧饮食",
+      "iconPath": "/asset/image/MeiShiJia_gray.png",
+      "selectedIconPath": "asset/image/MeiShiJia.png"
+    },
+    {
+      "pagePath": "pages/Group/Group",
+      "text": "社团管理",
+      "iconPath": "/asset/image/Group_gray.png",
+      "selectedIconPath": "/asset/image/Group.png"
+    },
+    {
+      "pagePath": "pages/Bath/Bath",
+      "text": "智慧澡堂",
+      "iconPath": "/asset/image/Bath_gray.png",
+      "selectedIconPath": "/asset/image/Bath.png"
+    }
+  ]
+  },
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "van-grid": "@vant/weapp/grid/index",
+    "van-grid-item": "@vant/weapp/grid-item/index",
+    "van-card": "@vant/weapp/card/index",
+    "van-row": "@vant/weapp/row/index",
+    "van-col": "@vant/weapp/col/index",
+    "van-image": "@vant/weapp/image/index"
+    
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "兼 爱",
+    "navigationBarTextStyle": "black"
+  }
+  
+}
